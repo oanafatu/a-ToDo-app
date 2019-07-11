@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>&lt;/salt&gt; :: ToDo</title>
+  <link rel="stylesheet" type="text/css" href="./style/todo.css">
+  <script defer src="./js/todo.js"></script>
+</head>
+<header>
+  <h1 class="header">ToDo list to manage your summer</h1>
+</header>
+<body class="body">
+  <h2 class="l-title">Add a new ToDo to the list:</h2>
+  <fieldset class="form l-list">
+    <form class="grid-form"> 
+
+      <label for="title">Title</label>
+      <input class="input-title" type="text" class="input-title" ></input>
+      <label for="description">Description</label>
+      <textarea class="input-description" rows="3" ></textarea>
+      <button class="btn-add" >Add</button>
+  
+    </form>
+ </fieldset>
+  <div>
+    <h2 class="l-title">To Does</h2>
+      <div class="grid-list l-list todo-list"></div>
+    <h2 class="l-title">Dones</h2>
+      <div class="grid-list l-list done-list"></div>
+  </div>
+</body>
+</html>

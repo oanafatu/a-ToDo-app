@@ -1,0 +1,75 @@
+@import './base.css';
+@import './layout.css';
+
+label {
+    text-align: right;
+    font-size: 14px;
+}
+
+.checkbox{
+    padding-right:5px; 
+}
+.checkbox:focus{
+    background-color: rgb(255, 243, 252);
+    cursor: text;
+}
+
+.input-title, .input-description {
+    border: solid 0.5px purple;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.item-title{
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-left: 5px;
+}
+.item-description{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.header {
+    color: purple;
+    font-size: 24px;
+    max-width: 380px;
+    text-align: center;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.alert{
+    padding-top:5px; 
+    font-style: italic;
+    color: lightsalmon;
+    font-size: 14px;
+}
+
+.btn-add{
+    text-align: center;
+    border: solid 2px gray;
+    border-radius: 5%;
+    background-color: lightpink;
+    width: 60px;
+    padding: 2px 0px;
+}
+
+.ishidden {
+    display: none;
+}
+
+.todo-item, .done-item{
+    border: solid 0.5px purple;
+    background-color: rgb(255, 243, 252);
+    padding: 10px 5px;
+}
+
+
+
+
+
+
+

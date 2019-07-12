@@ -3,7 +3,7 @@
 ## Salt ToDo
 
 This is the classic Todo app exercise got as homework at SALT. This is my implementation of it. Requirements are listed below. 
-
+You can view it and interact with it here: https://oanafatu.github.io/a-ToDo-app/src/
 
 Your task is to create a simple todo app - no backend required.
 Exactly how you implement and design this is up to you - but your solution should be implemented in the files `index.html`, `js/todo.js` and `style/todo.css`. You may use the screenshot at the bottom of this page as inspiration.
